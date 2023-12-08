@@ -6,7 +6,7 @@ export const config = {
 };
 
 const pretendard = fetch(
-  new URL("@/styles/Pretendard-Regular.ttf", import.meta.url)
+  new URL("@/styles/PretendardStd-Regular.ttf", import.meta.url)
 ).then((res) => res.arrayBuffer());
 
 export default async function handler(req: NextRequest) {

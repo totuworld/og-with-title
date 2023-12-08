@@ -53,7 +53,7 @@ export function constructMetadata({
       creator: "@totuworld",
     },
     icons,
-    metadataBase: new URL("https://og.cool/"),
+    metadataBase: new URL("https://og.totu.dev/"),
     themeColor: "#FFF",
   };
 }

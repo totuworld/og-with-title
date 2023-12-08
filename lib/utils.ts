@@ -50,7 +50,7 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@steventey",
+      creator: "@totuworld",
     },
     icons,
     metadataBase: new URL("https://og.cool/"),
@@ -66,12 +66,11 @@ export function getEndpointFromDomain(domain: string) {
   } else if (domain.includes("techcrunch.com")) {
     return "tc";
   } else {
-    return "nyt";
+    return "korea";
   }
 }
 
 export const SUPPORTED_PUBLICATIONS = [
-  "nytimes.com",
-  "wired.com",
-  "techcrunch.com",
+  "velog.io",
+  "medium.com",
 ];
